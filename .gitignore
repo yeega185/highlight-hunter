@@ -1,0 +1,5 @@
+data/in/
+out/
+*.wav
+*.mp4
+.env
