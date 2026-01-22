@@ -1,5 +1,11 @@
 # 🎮 Highlight Hunter: AI-Powered Gaming Clipper
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white)
+![AI-Whisper](https://img.shields.io/badge/AI-OpenAI_Whisper-green?logo=openai&logoColor=white)
+![AI-Gemini](https://img.shields.io/badge/AI-Google_Gemini_2.5-orange?logo=google&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Week_2_Complete-success)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)
+
 **Highlight Hunter** is an automated video highlight extraction pipeline designed for FPS games (specifically **Apex Legends**). It leverages **Multimodal AI** to analyze gameplay footage and automatically clip exciting moments.
 
 **Highlight Hunter** 是一個針對 FPS 遊戲（如 **Apex Legends**）設計的自動化精華剪輯系統。它整合了 **多模態 AI (Multimodal AI)** 技術，能自動分析遊戲畫面與語音，精準捕捉並剪輯出精彩時刻。
