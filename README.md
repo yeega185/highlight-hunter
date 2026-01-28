@@ -120,13 +120,26 @@ Example (out/sample_transcript.json):
 }
 ```
 ---
+## 📺 Demo Showcase (成果展示)
+
+AI successfully identified critical gameplay moments solely through visual analysis (Gemini 2.5 Flash).
+*AI 僅透過視覺分析，成功捕捉以下關鍵時刻：*
+
+| Time | Event Type | AI Reasoning (from JSON) |
+| :--- | :--- | :--- |
+| **00:14** | 🎯 Damage | *"畫面中央跳出紅色傷害數字 (40, 40)"* |
+| **03:30** | 💊 Healing | *"玩家使用鳳凰治療包"* |
+| **12:39** | 🏆 Champion | *"隨後顯示「冠軍」畫面"* |
+
+> **Note:** The clips were automatically cut by `w2d4_integration_test.py` based on these timestamps.
+---
 
 ## 🗺️ Roadmap (開發路線圖)
 [o] Week 1: Environment Setup & FFmpeg Audio Extraction.
 
 [o] Week 2: AI Transcription (Whisper) & Vision Analysis (Gemini).
 
-[ ] Week 3: LLM Context Understanding (Filtering non-highlights).
+[o] Week 3: LLM Context Understanding (Filtering non-highlights).
 
 [ ] Week 4: Automated Video Montage Assembly.
 
